@@ -37,6 +37,13 @@ section{
     padding:0 .5rem;
     font-size: 1.8rem;
 }
+section .btn:hover{
+    color:pink;
+    font-size: 20px;
+    text-shadow:1px 1px 1px gold ;
+    background-color: rgb(0, 59, 70);
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
 form .btn:hover{
     color:rgb(61, 10, 245);
     background-color: silver;
@@ -301,7 +308,6 @@ header .navbar ul li a:hover{
     color: rgb(124, 116, 116);
     font-size: 20px;
 }
-
 .contact .row form .message{
     height: 15rem;
     resize: none;
@@ -314,7 +320,10 @@ header .navbar ul li a:hover{
     font-size: 3rem;
     padding-bottom: 2rem;
 }
-
+.contact .row .content .title:hover{
+    font-size: 30px;
+    color:rgb(5, 38, 65);
+}
 .contact .row .content .info h3{
     display: flex;
     align-items: center;
@@ -326,6 +335,9 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
+}
+.info h3 i:hover{
+    color: blue;
 }
 
 .top{
