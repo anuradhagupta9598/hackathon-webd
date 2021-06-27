@@ -1,0 +1,422 @@
+
+*{
+    font-family: 'Amaranth', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 100px;
+    overflow-x: hidden;
+  scroll-behavior: smooth;
+    
+}
+body{
+    background:rgb(163, 152, 206);
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding: 3px;
+}
+.btn{
+    padding:.8rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+form .btn:hover{
+    color:rgb(61, 10, 245);
+    background-color: silver;
+}
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem white;
+    color:#fff;
+}
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:rgb(197, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    text-shadow: 4px ;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid rgb(92, 92, 168);
+}
+
+header .user .Name{
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+header .user h3,p{
+    font-size: 25px;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 6.5rem;
+}
+
+header .navbar ul li a:hover{
+    background:rgb(247, 243, 243);
+    text-shadow: 4px 4px 4px rgb(165, 160, 180);
+    color:black;
+    font-size: 20px;
+    transition:0.3s;
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+#star{
+    color:rgb(9, 228, 9);
+    font-size: 15px;
+}
+.home h3{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.home p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+.about .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+    font-size: 50px;
+    text-shadow:4px,4px,4px, cyan;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color:white;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.education .box-container{
+    display: flex;
+    border-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 10px;
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    color: black;
+    background-color: rgb(212, 3, 73);
+    width: 250px;
+    border: 15px solid rgb(180, 171, 174);
+    padding: 5px;
+    margin: 20px;
+    padding-left: 2rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.education .box-container .box:hover{
+    width:300px;
+    border-color: rgb(199, 207, 89);
+    transition: 0.2s;
+}
+.row .info nav {
+    background-color: dodgerblue;
+}
+.row .info nav ul{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row .info nav ul li{
+    display: inline-block;
+    justify-content: center;
+    background-color: dodgerblue;
+    padding-right: 12px 16px;
+    margin: 0 10px;
+
+}
+.row .info nav ul li a{
+    color: white;
+}
+.row .info nav ul li a:hover{
+    color: black;
+    text-shadow:4px 4px 4px white;
+}
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+.info p{
+    color: black;
+    font-size: 2rem;
+}
+.box-container .box{
+    box-sizing: border-box;
+    border-radius: 10%;
+    border-color: aqua;
+    border-color: rgb(45, 216, 159);
+}
+.education .box-container .box h3,p{
+    font-size: 3rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+.box-container .box ,p{
+    font-size: 2rem;
+    color:rgb(10, 9, 9);
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:rgba(231, 229, 224, 0.808);
+    color:rgb(10, 8, 8);
+    text-transform: none;
+    font-size: 1.7rem;
+    width:100%;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+    color: rgb(124, 116, 116);
+    font-size: 20px;
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: rgb(14 13 13);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+}
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+.anicon{
+
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    color:white;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    margin-top: 100px;
+}
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rdba(0,0,0,0.5);
+    }
+    100%{
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgba(0,0,0,0.1);
+    }
+
+}
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+
+    .education .box-container .box{
+        width:100%;
+    }
+
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+ }
